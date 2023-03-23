@@ -3,13 +3,17 @@ Write a python script that takes input from a user ansd displays it to the user 
 (use the concept of lists)
 """
 userDetails = []
-userName = input('enter a name: ')
-userDetails.append(userName)
-userAge = input('enter age: ')
-userDetails.append(userAge)
-userClass = input('enter class: ')
-userDetails.append(userClass)
-userGender = input('user gender: ')
-userDetails.append(userGender)
-userTelephone = input('enter telephone number: ')
-userDetails.append(userTelephone)
+userinput = input('enter a name: ')
+userDetails.append(userinput)
+userinput = input('enter age: ')
+userDetails.append(userinput)
+userinput = input('enter class: ')
+userDetails.append(userinput)
+userinput = input('user gender: ')
+userDetails.append(userinput)
+userinput = input('enter telephone number: ')
+userDetails.append(userinput)
+
+print(f'your name is {userDetails[0]}. your name is {userDetails[1]}  ')
+#adding a  dictionary will be  dic{}
+#dic["name"]= name 
