@@ -1,4 +1,4 @@
-age = input("what is your age")
+age = input("what is your age"; )
 
 if age >="18" :
     print("you are legal to drive")
